@@ -1,0 +1,18 @@
+{
+  "archive_url": "https://raw.githubusercontent.com/Nixtla/m5-forecasts/main/datasets/m5.zip",
+  "original_source": "https://github.com/Mcompetitions/M5-methods",
+  "archive_sha256": "cc704ba15d6802f8262e6ec7d4c6041e4ad6366a94365e8c84f721e450eed774",
+  "scope": "60 CA_1 foods SKUs; 20 per department",
+  "selection_information_cutoff": 1605,
+  "selection_sales_window": [
+    1241,
+    1605
+  ],
+  "early_availability_rule": "At least one sale by day 365",
+  "calendar_repair": "Nixtla calendar omits d index; derive sequential day from verified consecutive dates beginning 2011-01-29",
+  "files": {
+    "sales_subset.csv": "29ca14be269c0c4206d393a1f475a8e9fb99d574b9b94f61a5e81852df7ca03c",
+    "calendar.csv": "f6d07897a10fdb418b38ea7c9a115d7e03bd3427790f3c759494f0d416a4c770",
+    "prices_subset.csv": "441aa2431c17c001d397380f9be05738b106b6bd09d655232f69b0829a83236e"
+  }
+}

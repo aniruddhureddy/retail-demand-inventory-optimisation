@@ -1,0 +1,30 @@
+{
+  "skus": 60,
+  "item_days": 114780,
+  "store": "CA_1",
+  "departments": [
+    "FOODS_1",
+    "FOODS_2",
+    "FOODS_3"
+  ],
+  "validation_days": 84,
+  "test_days": 84,
+  "forecast_horizon": 28,
+  "test_start": "2016-02-01",
+  "test_end": "2016-04-24",
+  "selected_model": "Gradient boosting",
+  "optimisation_runs": 108,
+  "optimal_solver_runs": 108,
+  "budget_breaches": 0,
+  "engine_audit": {
+    "rows": 114780,
+    "units_reconciled": 1337156,
+    "engine": "PySpark; verified against pandas and SQLite",
+    "spark_version": "3.5.7",
+    "rolling_features_include_origin_day": "Allowed: origin-day sales are observed when the forecast is made at close of day",
+    "price_rule": "Current observed weekly price, forward-filled only; future prices excluded from model inputs",
+    "missing_price_after_day_365": 0,
+    "sql_rolling_parity": "passed",
+    "spark_rolling_parity": "passed"
+  }
+}

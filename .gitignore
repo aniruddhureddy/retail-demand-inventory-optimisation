@@ -1,0 +1,26 @@
+# Local environments, credentials and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# Downloaded source data and reproducible working files
+data/*.csv
+data/*.zip
+results/*.sqlite
+results/*.sqlite-*
+results/feature_panel.csv.gz
+results/spark_features.parquet/
+results/runtime.json
+results/split_assignments.csv
+results/test_predictions.csv
+results/customer_spend_ranks.csv
+results/forecasts.csv
+results/weekly_review_forecasts.csv
+results/inventory_daily.csv
+*.log

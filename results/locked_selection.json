@@ -1,0 +1,24 @@
+{
+  "model": "Gradient boosting",
+  "criterion": "Mean WAPE across three validation origins only",
+  "validation_origins": [
+    1745,
+    1773,
+    1801
+  ],
+  "test_origins": [
+    1829,
+    1857,
+    1885
+  ],
+  "seed": 20260923,
+  "training_label_rule": "All training target days <= forecast origin",
+  "inventory_policy_assumptions": {
+    "base_lead_days": 2,
+    "review_days": 7,
+    "base_budget_factor": 1.0,
+    "purchase_cost_fraction_of_price": 0.6,
+    "daily_holding_cost_fraction_of_unit_cost": 0.001,
+    "lost_sales_penalty_fraction_of_price": 0.5
+  }
+}
